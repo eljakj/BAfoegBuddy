@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dashboardRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7FAFA"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Übersicht"
+            android:textColor="#004D57"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Hallo Jad 👋\nHier ist der aktuelle Stand deines BAföG-Antrags."
+            android:textColor="#263238"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Mein Antrag\nAntrag zu 70% vollständig\n\n███████░░░ 70%"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#FFF8E1"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Fehlende Unterlagen\n3 Dokumente fehlen noch"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#E3F2FD"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Fristen\nNächste Frist in 18 Tagen"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#F3E5F5"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Nachforderungen\n1 offene Nachforderung"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>
