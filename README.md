@@ -12,31 +12,32 @@ Ziel des Projekts ist die Entwicklung eines Android-Prototyps mit API-first Ansa
 
 ## Funktionen
 
-* Verwaltung von BAföG-Anträgen
-* Dokumentenverwaltung
-* Fristenübersicht
-* Nachforderungen verwalten
-* Statusübersicht
-* Offline nutzbarer Prototyp
+- Verwaltung von BAföG-Anträgen
+- Dokumentenverwaltung
+- Fristenübersicht
+- Nachforderungen verwalten
+- Statusübersicht
+- Offline nutzbarer Prototyp
+- Release-Demo für die Projektpräsentation
 
 ## Architektur
 
 Das Projekt verwendet eine MVC-orientierte Struktur:
 
-* Model
-* View
-* Controller
+- Model
+- View
+- Controller
 
 Wichtige Klassen:
 
-* BafogApplication
-* DocumentItem
-* Deadline
-* FollowUpRequest
+- BafogApplication
+- DocumentItem
+- Deadline
+- FollowUpRequest
 
 ## API-first Konzept
 
-Die Anwendung wurde API-first geplant.
+Die Anwendung wurde API-first geplant und vorbereitet.
 
 Beispielhafte Endpunkte:
 
@@ -72,22 +73,58 @@ Für das Projekt wurden Unit Tests erstellt.
 
 Getestete Bereiche:
 
-* DocumentItem
-* Deadline
-* FollowUpRequest
-* Dashboard
+- RequirementChecker
+- DocumentController
+- DeadlineController
+- DashboardController
+- FollowUpController
 
-Alle Tests wurden erfolgreich ausgeführt.
+Alle Tests wurden erfolgreich ausgeführt. Zusätzlich wurde der Android-Prototyp erfolgreich im Emulator gestartet.
 
 ## Dokumentation
 
 Zusätzliche Nachweise befinden sich im Ordner docs.
 
-* Konzeptdokument
-* Screenshots
-* Testnachweise
-* PDF-Dokumentation
+- Konzeptdokument
+- Screenshots
+- Testnachweise
+- PDF-Dokumentation
 
 ## Projektstatus
 
-Finaler Prototyp für Meilenstein 3.
+Release-Kandidat für Meilenstein 4 (Release + Projektpräsentation).
+
+Der Android-Prototyp enthält die wichtigsten Funktionen der geplanten Anwendung und ist für die Präsentation vorbereitet.
+
+## Meilenstein 4 – Release und Projektpräsentation
+
+Für Meilenstein 4 wurde BAföGBuddy zu einem lauffähigen Android-Prototyp erweitert.
+
+Die Demo enthält folgende Screens:
+
+- Login / Startscreen
+- Dashboard / Übersicht
+- Antrag
+- Dokumente
+- Fristen
+- Nachforderungen
+
+Der Prototyp zeigt die wichtigsten Funktionen der geplanten App:
+
+- Verwaltung von BAföG-Antragsdaten
+- Übersicht über fehlende Unterlagen
+- Dokumentenstatus
+- Fristenübersicht
+- Nachforderungen vom BAföG-Amt
+- lokale/offline nutzbare Struktur
+
+Die App ist als Release-Demo für die Projektpräsentation vorbereitet.
+
+## Screens des Prototyps
+
+- Login / Startscreen
+- Dashboard / Übersicht
+- Antrag
+- Dokumente
+- Fristen
+- Nachforderungen
