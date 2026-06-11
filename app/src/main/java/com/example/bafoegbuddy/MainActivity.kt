@@ -3,6 +3,7 @@ package com.example.bafoegbuddy
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -24,6 +25,11 @@ class MainActivity : AppCompatActivity() {
         startButton.setOnClickListener {
             val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
+        }
+
+        val registerButton = findViewById<Button>(R.id.registerButton)
+        registerButton.setOnClickListener {
+            Toast.makeText(this, "Registrierung im Prototyp vorbereitet.", Toast.LENGTH_SHORT).show()
         }
     }
 }

@@ -17,6 +17,22 @@
             android:exported="false" />
 
         <activity
+            android:name=".DocumentsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".FollowUpsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ApplicationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".DeadlinesActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7FAFA"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Antrag"
+            android:textColor="#004D57"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/backToDashboardButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="← Zurück zur Übersicht"
+            android:textColor="#00A99D"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="●  2  3  4  5"
+            android:textColor="#00A99D"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Persönliche Daten und aktueller Stand deines BAföG-Antrags."
+            android:textColor="#263238"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#E0F2F1"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Fortschritt\nAntrag zu 70% vollständig"
+            android:textColor="#004D57"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Vorname\nMax"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Nachname\nMustermann"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Geburtsdatum\n14.05.2001"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Familienstand\nledig"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Staatsangehörigkeit\ndeutsch"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Adresse\nBeispielstraße 12\n12345 Musterstadt"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/saveApplicationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#00A99D"
+            android:text="Daten speichern"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

@@ -28,6 +28,9 @@
             android:textSize="16sp" />
 
         <TextView
+            android:id="@+id/applicationCard"
+            android:clickable="true"
+            android:focusable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
@@ -39,6 +42,9 @@
             android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/documentsCard"
+            android:clickable="true"
+            android:focusable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
@@ -50,17 +56,23 @@
             android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/deadlinesCard"
+            android:clickable="true"
+            android:focusable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
             android:background="#E3F2FD"
             android:elevation="3dp"
             android:padding="20dp"
-            android:text="Fristen\nNächste Frist in 18 Tagen"
+            android:text="Fristen\nNächste Frist in 18 Tagen\n15.06.2026"
             android:textColor="#263238"
             android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/followUpsCard"
+            android:clickable="true"
+            android:focusable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
@@ -68,6 +80,17 @@
             android:elevation="3dp"
             android:padding="20dp"
             android:text="Nachforderungen\n1 offene Nachforderung"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#E8F5E9"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Letzte Sicherung\nHeute, 10:24 Uhr ✓"
             android:textColor="#263238"
             android:textSize="18sp" />
 

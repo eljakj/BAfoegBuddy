@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/deadlinesRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7FAFA"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fristen"
+            android:textColor="#004D57"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/backToDashboardButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="← Zurück zur Übersicht"
+            android:textColor="#00A99D"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Alle wichtigen BAföG-Fristen im Überblick."
+            android:textColor="#263238"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#FFEBEE"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Semesterbescheinigung nachreichen&#10;Frist: 15.06.2026&#10;Status: kritisch"
+            android:textColor="#B00020"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="BAföG-Folgeantrag vorbereiten&#10;Frist: 30.07.2026&#10;Status: offen"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:padding="20dp"
+            android:text="Mietbescheinigung einreichen&#10;Frist: 10.08.2026&#10;Status: offen"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>
